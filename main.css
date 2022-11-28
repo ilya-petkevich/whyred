@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    color: #E1E1E1;
+    line-height: 120%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 500;
+    color: #94999D;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    color: #94999D;
+    margin-top: 5px;
+}
+
+button>a {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: left;
+}
+
+.container-main {
+    width: 1200px;
+    /* background-color: #888; */
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: -50px;
+}
+
+.cover-main {
+    border-radius: 0 0 90px 90px;
+    max-width: 1440px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    z-index: -1;
+    background-image: url(materials/cover.jpg);
+}
+
+@media (max-width: 1440px) {
+    .cover-main {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+.mycard {
+    background-color: #0F0F0F;
+    border-radius: 5px;
+    width: 460px;
+    padding: 40px 30px 70px 30px;
+    box-sizing: border-box;
+    align-self: flex-start;
+}
+
+.avatar-logo {
+    border-radius: 100px;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+}
+
+.badge>img {
+    width: 110px;
+    height: 110px;
+}
+
+.badge>div {
+    margin-left: 30px;
+}
+
+.contacts-btns {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 50px auto 0;
+    height: 210px;
+    align-content: space-between;
+}
+
+.contacts-btns>button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.contacts-btns>button>a {
+    display: flex;
+}
+
+.icon-logo {
+    border: 1px solid #383838;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    background-color: #000;
+    box-sizing: border-box;
+}
+
+.icon-logo>img, .icon-logo>span {
+    margin: auto 0 auto 20px;
+    display: block;
+    transition: margin-left 0.2s;
+}
+
+.icon-logo:hover > span {
+    margin-left: 5px;
+}
+
+.right-part {
+    margin: 150px auto auto 80px;
+}
+
+.right-part>button {
+    margin-bottom: 20px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.arrow-icon {
+    background-color: #0F0F0F;
+    border-radius: 5px;
+    width: 360px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-icon>span {
+    margin-left: 30px;
+}
+
+.arrow-icon>img {
+    margin-right: 30px;
+    transition: margin-right 0.2s;
+    transition: underline 0.2s;
+}
+
+.arrow-icon:hover > img {
+    margin-right: 20px;
+}
+
+.arrow-icon:hover > span {
+    text-decoration: underline;
+}
+
+.nickname-main {
+    display: block;
+    margin: 200px auto 0;
+}

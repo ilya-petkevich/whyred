@@ -1,0 +1,130 @@
+/* max-width: 1199px */
+
+.container-main {
+    width: 95%;
+    margin-top: -100px;
+}
+
+.mycard {
+    width: 380px;
+    padding-bottom: 50px;
+}
+
+.badge>img {
+    width: 80px;
+    height: 80px;
+}
+
+.badge>div {
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 29px;
+}
+
+.right-part {
+    margin-left: 50px;
+}
+
+@media (max-width: 959px) {
+    .container-main {
+        display: block;
+    }
+
+    .mycard {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .badge {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .contacts-btns {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    .contacts-btns button:last-child {
+        margin-top: 15px;
+    }
+
+    @media (max-width: 710px) {
+        .contacts-btns {
+            flex-direction: column;
+            align-content: center;
+        }
+
+        .contacts-btns button:nth-child(2) {
+            margin-top: 15px;
+        }
+    }
+
+    .right-part {
+        margin-left: auto;
+        margin-top: 100px;
+    }
+
+    .right-part > button {
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .right-part>button {
+        display: block;
+    }
+}
+
+@media (max-width: 639px) {
+    .container-main {
+        margin-top: -150px;
+    }
+}
+
+@media (max-width: 479px) {
+    .container-main {
+        margin-top: -170px;
+    }
+
+    h2, h1 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .icon-logo {
+        width: 220px;
+        height: 50px;
+    }
+
+    .icon-logo > img {
+        margin-left: 10px;
+    }
+
+    .icon-logo > span {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .right-part>button {
+        width: 100%;
+    }
+
+    .arrow-icon {
+        width: 100%;
+    }
+}
